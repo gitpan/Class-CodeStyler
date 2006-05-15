@@ -1,11 +1,11 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Class-CodeStyler
-version:      0.04
+version:      0.07
 version_from: lib/Class/CodeStyler.pm
 installdirs:  site
 requires:
-    Class::STL::Containers:        0.18
+    Class::STL::Containers:        0.26
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.17

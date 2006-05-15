@@ -1,5 +1,11 @@
 Revision history for Perl extension Class::CodeStyler.
 
+0.07 Mon May 15 20:02:22 2006
+	- use stl version 0.26.
+
+0.06 Mon May 8 20:02:22 2006
+	- use stl version 0.21.
+
 0.01  Fri Apr 28 09:10:06 2006
 	- original version; created by h2xs 1.23 with options
 		-AX -n Class::CodeStyler

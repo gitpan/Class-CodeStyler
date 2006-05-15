@@ -30,13 +30,14 @@ require 5.005_62;
 use strict;
 use warnings;
 use vars qw($VERSION $BUILD);
-$VERSION = 0.04;
+$VERSION = 0.07;
 $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 # ----------------------------------------------------------------------------------------------------
 {
 	package Class::CodeStyler::Element::Abstract;
 	use base qw(Class::STL::Element);
-	use Class::STL::ClassMembers qw(owner), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(owner);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		use Carp qw(confess);
@@ -47,7 +48,7 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Program;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use stl 0.18;
+	use stl 0.26;
 	use UNIVERSAL qw(isa can);
 	use Class::STL::ClassMembers 
 	(
@@ -69,13 +70,13 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 		Class::STL::ClassMembers::DataMember->new(name => 'comment_block_begin_char', default => ''),
 		Class::STL::ClassMembers::DataMember->new(name => 'comment_block_end_char', default => ''),
 		Class::STL::ClassMembers::DataMember->new(name => 'comment_block_char', default => ''),
-		Class::STL::ClassMembers::FunctionMember::New->new(),
 	);
+	use Class::STL::ClassMembers::Constructor;
 	sub new_extra
 	{
 		my $self = shift;
 		$self->code_text(stack()) unless (defined($self->code_text()));
-		$self->sections(list(data_type => 'Class::CodeStyler::Element::Abstract'));
+		$self->sections(list(element_type => 'Class::CodeStyler::Element::Abstract'));
 		$self->_bracket_stack(stack());
 		$self->_jump_stack(stack());
 		$self->_insert_point(iterator($self->sections()->begin()));
@@ -296,7 +297,7 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Program::Perl; 
 	use base qw(Class::CodeStyler::Program);
-	use Class::STL::ClassMembers qw(__dummy__), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers::Constructor;
 	sub new_extra
 	{
 		my $self = shift;
@@ -308,7 +309,7 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Program::C; 
 	use base qw(Class::CodeStyler::Program);
-	use Class::STL::ClassMembers qw(__dummy__), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers::Constructor;
 	sub new_extra
 	{
 		my $self = shift;
@@ -323,7 +324,7 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Bookmark;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(__dummy__), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -335,7 +336,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::OpenBlock;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(bracket_char), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(bracket_char);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -349,7 +351,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::CloseBlock;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(bracket_char), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(bracket_char);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -362,7 +365,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Code;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(code), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(code);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -374,7 +378,7 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Comment;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(__dummy__), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -406,7 +410,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::ToggleNewline;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(on), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(on);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -417,7 +422,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::ToggleIndent;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(on), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(on);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;
@@ -428,7 +434,8 @@ $BUILD = 'Friday April 28 21:56:42 GMT 2006';
 {
 	package Class::CodeStyler::Indent;
 	use base qw(Class::CodeStyler::Element::Abstract);
-	use Class::STL::ClassMembers qw(indent), Class::STL::ClassMembers::FunctionMember::New->new(); 
+	use Class::STL::ClassMembers qw(indent);
+	use Class::STL::ClassMembers::Constructor;
 	sub prepare
 	{
 		my $self = shift;

@@ -1,4 +1,4 @@
-Class-CodeStyler version 0.01
+Class-CodeStyler version 0.07
 =============================
 
 Class::CodeStyler is an object oriented API to be used by code-gererators in producing formatted code (Perl, C, other). The produced code file can also be syntax checked, displayed with line numbers, executed, and eval'd. Code can be inserted anywhere in the generated program using a system of bookmarks and jumps. 
@@ -15,7 +15,7 @@ To install this module type the following:
 
 DEPENDENCIES
 
-Class::STL::Containers version 0.18 or above.
+Class::STL::Containers version 0.26 or above.
 
 
 COPYRIGHT AND LICENCE

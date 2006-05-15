@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Class::CodeStyler',
     VERSION_FROM      => 'lib/Class/CodeStyler.pm', # finds $VERSION
-    PREREQ_PM         => { Class::STL::Containers => 0.18 }, # e.g., Module::Name => 1.1
+    PREREQ_PM         => { Class::STL::Containers => 0.26 }, # e.g., Module::Name => 1.1
     dist       		=>
     {
         SUFFIX       => ".gz",
