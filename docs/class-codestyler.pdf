@@ -11,7 +11,7 @@
 endobj
 2 0 obj
 <<
-/CreationDate (D:20060502143843+0100)
+/CreationDate (D:20070118102028+0000)
 /Producer (Pequel)
 /Title (Class::CodeStyler)
 >>
@@ -431,7 +431,7 @@ BT
 /F10 7 Tf
 /F21 10 Tf
 1 0 0 1 52 37 Tm
-(02 May 2006 14:38) Tj
+(18 January 2007 10:20) Tj
 1 0 0 1 537.44 37 Tm
 (1) Tj
 ET
@@ -441,7 +441,7 @@ S
 endstream
 endobj
 19 0 obj
-5528
+5532
 endobj
 20 0 obj
 <<
@@ -836,8 +836,8 @@ BT
 /F21 10 Tf
 1 0 0 1 52 37 Tm
 (2) Tj
-1 0 0 1 456.28 37 Tm
-(02 May 2006 14:38) Tj
+1 0 0 1 437.38 37 Tm
+(18 January 2007 10:20) Tj
 ET
 52 50 m
 543 50 l
@@ -845,7 +845,7 @@ S
 endstream
 endobj
 23 0 obj
-6243
+6247
 endobj
 24 0 obj
 <<
@@ -1136,31 +1136,52 @@ BT
 () Tj
 /F23 10 Tf
 0.0000 Tw
-(bookmark) Tj
+(anchor_set) Tj
 /F21 10 Tf
 0.0000 Tw
 ( ) Tj
-/F20 10 Tf
-1 0 0 1 76.0 166.8 Tm
-0.0000 Tw
-(Set the bookmark at the current position with the name as specified by the argument. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 124.8 Tm
+1 0 0 1 52.0 148.8 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
 0.0000 Tw
-(jump) Tj
+(anchor_return) Tj
 /F21 10 Tf
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 112.8 Tm
+1 0 0 1 76.0 136.8 Tm
+0.3381 Tw
+(Set an ) Tj
+/F22 10 Tf
+0.3381 Tw
+(anchor) Tj
+/F20 10 Tf
+0.3381 Tw
+( with the ) Tj
+/F23 10 Tf
+0.3381 Tw
+(anchor_set\(\)) Tj
+/F20 10 Tf
+0.3381 Tw
+( function, and return to the last set ) Tj
+/F22 10 Tf
+0.3381 Tw
+(anchor) Tj
+/F20 10 Tf
+0.3381 Tw
+( with the ) Tj
+/F23 10 Tf
+0.3381 Tw
+(anchor_return\(\)) Tj
+/F20 10 Tf
+1 0 0 1 76.0 124.8 Tm
 0.0000 Tw
-(Jump to the position bookmarked with the name as specified in the argument. ) Tj
+(function. ) Tj
 /F21 10 Tf
 1 0 0 1 52 37 Tm
-(02 May 2006 14:38) Tj
+(18 January 2007 10:20) Tj
 1 0 0 1 537.44 37 Tm
 (3) Tj
 ET
@@ -1170,7 +1191,7 @@ S
 endstream
 endobj
 27 0 obj
-4276
+4436
 endobj
 28 0 obj
 <<
@@ -1216,12 +1237,40 @@ BT
 () Tj
 /F23 10 Tf
 0.0000 Tw
-(return) Tj
+(bookmark) Tj
 /F21 10 Tf
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
 1 0 0 1 76.0 768.0 Tm
+0.0000 Tw
+(Set the bookmark at the current position with the name as specified by the argument. ) Tj
+/F21 10 Tf
+1 0 0 1 52.0 726.0 Tm
+0.0000 Tw
+() Tj
+/F23 10 Tf
+0.0000 Tw
+(jump) Tj
+/F21 10 Tf
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 76.0 714.0 Tm
+0.0000 Tw
+(Jump to the position bookmarked with the name as specified in the argument. ) Tj
+/F21 10 Tf
+1 0 0 1 52.0 672.0 Tm
+0.0000 Tw
+() Tj
+/F23 10 Tf
+0.0000 Tw
+(return) Tj
+/F21 10 Tf
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 76.0 660.0 Tm
 0.0000 Tw
 (Return to the last position prior to the previous ) Tj
 /F23 10 Tf
@@ -1231,7 +1280,7 @@ BT
 0.0000 Tw
 (. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 726.0 Tm
+1 0 0 1 52.0 618.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1241,7 +1290,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 714.0 Tm
+1 0 0 1 76.0 606.0 Tm
 0.0000 Tw
 (Turn on ) Tj
 /F22 10 Tf
@@ -1251,7 +1300,7 @@ BT
 0.0000 Tw
 (. A newline will be added after every code addition code. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 672.0 Tm
+1 0 0 1 52.0 564.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1261,7 +1310,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 660.0 Tm
+1 0 0 1 76.0 552.0 Tm
 0.0000 Tw
 (Turn off ) Tj
 /F22 10 Tf
@@ -1271,7 +1320,7 @@ BT
 0.0000 Tw
 (. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 618.0 Tm
+1 0 0 1 52.0 510.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1281,7 +1330,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 606.0 Tm
+1 0 0 1 76.0 498.0 Tm
 0.0000 Tw
 (Add a ) Tj
 /F22 10 Tf
@@ -1291,7 +1340,7 @@ BT
 0.0000 Tw
 ( line. The appropriate language comment prefix will be prefixed. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 564.0 Tm
+1 0 0 1 52.0 456.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1301,7 +1350,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 552.0 Tm
+1 0 0 1 76.0 444.0 Tm
 0.0000 Tw
 (Add a ) Tj
 /F22 10 Tf
@@ -1311,7 +1360,7 @@ BT
 0.0000 Tw
 ( line to the code text. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 510.0 Tm
+1 0 0 1 52.0 402.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1321,7 +1370,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 498.0 Tm
+1 0 0 1 76.0 390.0 Tm
 1.1000 Tw
 (Clear the ) Tj
 /F22 10 Tf
@@ -1342,7 +1391,7 @@ BT
 /F20 10 Tf
 1.1000 Tw
 (, the) Tj
-1 0 0 1 76.0 486.0 Tm
+1 0 0 1 76.0 378.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1358,7 +1407,7 @@ BT
 0.0000 Tw
 ( again. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 444.0 Tm
+1 0 0 1 52.0 336.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1368,7 +1417,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 432.0 Tm
+1 0 0 1 76.0 324.0 Tm
 0.0000 Tw
 (Process the ) Tj
 /F23 10 Tf
@@ -1378,7 +1427,7 @@ BT
 0.0000 Tw
 ( object and produce the code text ready for printing. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 390.0 Tm
+1 0 0 1 52.0 282.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1388,11 +1437,11 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 378.0 Tm
+1 0 0 1 76.0 270.0 Tm
 0.0000 Tw
 (Print the code text to stdout. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 336.0 Tm
+1 0 0 1 52.0 228.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1402,7 +1451,7 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 324.0 Tm
+1 0 0 1 76.0 216.0 Tm
 0.0000 Tw
 (Save the generated code text to the file as specified in the ) Tj
 /F23 10 Tf
@@ -1412,7 +1461,7 @@ BT
 0.0000 Tw
 ( member. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 282.0 Tm
+1 0 0 1 52.0 174.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1422,11 +1471,11 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 270.0 Tm
+1 0 0 1 76.0 162.0 Tm
 0.0000 Tw
 (Display the generated code text to stdout with line numbers. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 228.0 Tm
+1 0 0 1 52.0 120.0 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1436,51 +1485,14 @@ BT
 0.0000 Tw
 ( ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 216.0 Tm
+1 0 0 1 76.0 108.0 Tm
 0.0000 Tw
 (Check the syntax of the generated program. ) Tj
 /F21 10 Tf
-1 0 0 1 52.0 174.0 Tm
-0.0000 Tw
-() Tj
-/F23 10 Tf
-0.0000 Tw
-(exec) Tj
-/F21 10 Tf
-0.0000 Tw
-( ) Tj
-/F20 10 Tf
-1 0 0 1 76.0 162.0 Tm
-2.9664 Tw
-(Execute the generated program. The generated program will be executed in place of this \(caller\)) Tj
-1 0 0 1 76.0 150.0 Tm
-0.0000 Tw
-(program. ) Tj
-/F21 10 Tf
-1 0 0 1 52.0 108.0 Tm
-0.0000 Tw
-() Tj
-/F23 10 Tf
-0.0000 Tw
-(eval) Tj
-/F21 10 Tf
-0.0000 Tw
-( ) Tj
-/F20 10 Tf
-1 0 0 1 76.0 96.0 Tm
-0.0000 Tw
-(Execute the generated program with the Perl ) Tj
-/F23 10 Tf
-0.0000 Tw
-(eval) Tj
-/F20 10 Tf
-0.0000 Tw
-( function. ) Tj
-/F21 10 Tf
 1 0 0 1 52 37 Tm
 (4) Tj
-1 0 0 1 456.28 37 Tm
-(02 May 2006 14:38) Tj
+1 0 0 1 437.38 37 Tm
+(18 January 2007 10:20) Tj
 ET
 52 50 m
 543 50 l
@@ -1488,7 +1500,7 @@ S
 endstream
 endobj
 31 0 obj
-4016
+3929
 endobj
 32 0 obj
 <<
@@ -1527,12 +1539,63 @@ BT
 (Programmer's Reference) Tj
 1 0 0 1 456.87 797 Tm
 (Class::CodeStyler) Tj
-/F21 12 Tf
+/F21 10 Tf
 1 0 0 1 52.0 780.0 Tm
+0.0000 Tw
+() Tj
+/F23 10 Tf
+0.0000 Tw
+(exec) Tj
+/F21 10 Tf
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 76.0 768.0 Tm
+2.9664 Tw
+(Execute the generated program. The generated program will be executed in place of this \(caller\)) Tj
+1 0 0 1 76.0 756.0 Tm
+0.0000 Tw
+(program. ) Tj
+/F21 10 Tf
+1 0 0 1 52.0 714.0 Tm
+0.0000 Tw
+() Tj
+/F23 10 Tf
+0.0000 Tw
+(run) Tj
+/F21 10 Tf
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 76.0 702.0 Tm
+0.0000 Tw
+(Execute the generated program and wait for return. ) Tj
+/F21 10 Tf
+1 0 0 1 52.0 660.0 Tm
+0.0000 Tw
+() Tj
+/F23 10 Tf
+0.0000 Tw
+(eval) Tj
+/F21 10 Tf
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 76.0 648.0 Tm
+0.0000 Tw
+(Execute the generated program with the Perl ) Tj
+/F23 10 Tf
+0.0000 Tw
+(eval) Tj
+/F20 10 Tf
+0.0000 Tw
+( function. ) Tj
+/F21 12 Tf
+1 0 0 1 52.0 606.0 Tm
 0.0000 Tw
 (PREREQUISITES ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 765.6 Tm
+1 0 0 1 76.0 591.6 Tm
 0.0000 Tw
 () Tj
 /F23 10 Tf
@@ -1542,59 +1605,56 @@ BT
 0.0000 Tw
 ( version 0.18 or above is required. ) Tj
 /F21 12 Tf
-1 0 0 1 52.0 723.6 Tm
+1 0 0 1 52.0 549.6 Tm
 0.0000 Tw
 (SEE ALSO ) Tj
 /F21 12 Tf
-1 0 0 1 52.0 687.6 Tm
+1 0 0 1 52.0 513.6 Tm
 0.0000 Tw
 (AUTHOR ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 673.2 Tm
+1 0 0 1 76.0 499.2 Tm
 0.0000 Tw
-(m gaffiero, <gaffie@users.sourceforge.net<gt> ) Tj
+(m gaffiero, <gaffie@users.sourceforge.net> ) Tj
 /F21 12 Tf
-1 0 0 1 52.0 643.2 Tm
+1 0 0 1 52.0 469.2 Tm
 0.0000 Tw
 (COPYRIGHT AND LICENSE ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 628.8 Tm
+1 0 0 1 76.0 454.8 Tm
 0.0000 Tw
-(Copyright \(C\) 2006 by Mario Gaffiero ) Tj
+(Copyright \2511999-2007, Mario Gaffiero. All Rights Reserved. ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 604.8 Tm
+1 0 0 1 76.0 430.8 Tm
 0.0000 Tw
 (This file is part of Class::CodeStyler\(TM\). ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 580.8 Tm
+1 0 0 1 76.0 406.8 Tm
 1.1731 Tw
 (Class::CodeStyler is free software; you can redistribute it and/or modify it under the terms of the GNU) Tj
-1 0 0 1 76.0 568.8 Tm
-0.3773 Tw
-(General Public License as published by the Free Software Foundation; either version 2 of the License, or) Tj
-1 0 0 1 76.0 556.8 Tm
+1 0 0 1 76.0 394.8 Tm
 0.0000 Tw
-(\(at your option\) any later version. ) Tj
+(General Public License as published by the Free Software Foundation; version 2 of the License. ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 532.8 Tm
+1 0 0 1 76.0 370.8 Tm
 2.3750 Tw
 (Class::CodeStyler is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;) Tj
-1 0 0 1 76.0 520.8 Tm
+1 0 0 1 76.0 358.8 Tm
 0.0175 Tw
 (without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.) Tj
-1 0 0 1 76.0 508.8 Tm
+1 0 0 1 76.0 346.8 Tm
 0.0000 Tw
 ( See the GNU General Public License for more details. ) Tj
 /F20 10 Tf
-1 0 0 1 76.0 484.8 Tm
+1 0 0 1 76.0 322.8 Tm
 0.0425 Tw
 (You should have received a copy of the GNU General Public License along with Class::CodeStyler; if not,) Tj
-1 0 0 1 76.0 472.8 Tm
+1 0 0 1 76.0 310.8 Tm
 0.0000 Tw
 (write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA ) Tj
 /F21 10 Tf
 1 0 0 1 52 37 Tm
-(02 May 2006 14:38) Tj
+(18 January 2007 10:20) Tj
 1 0 0 1 537.44 37 Tm
 (5) Tj
 ET
@@ -1604,7 +1664,7 @@ S
 endstream
 endobj
 35 0 obj
-1989
+2712
 endobj
 36 0 obj
 <<
@@ -1645,8 +1705,8 @@ BT
 /F21 10 Tf
 1 0 0 1 52 37 Tm
 (6) Tj
-1 0 0 1 456.28 37 Tm
-(02 May 2006 14:38) Tj
+1 0 0 1 437.38 37 Tm
+(18 January 2007 10:20) Tj
 ET
 52 50 m
 543 50 l
@@ -1654,7 +1714,7 @@ S
 endstream
 endobj
 39 0 obj
-260
+264
 endobj
 40 0 obj
 <<
@@ -1918,7 +1978,7 @@ f
 Q
 BT
 1 0 0 1 100 458 Tm
-(bookmark) Tj
+(anchor_set) Tj
 1 0 0 1 513.44 458 Tm
 (3) Tj
 ET
@@ -1929,7 +1989,7 @@ f
 Q
 BT
 1 0 0 1 100 446 Tm
-(jump) Tj
+(anchor_return) Tj
 1 0 0 1 513.44 446 Tm
 (3) Tj
 ET
@@ -1940,7 +2000,7 @@ f
 Q
 BT
 1 0 0 1 100 434 Tm
-(return) Tj
+(bookmark) Tj
 1 0 0 1 513.44 434 Tm
 (4) Tj
 ET
@@ -1951,7 +2011,7 @@ f
 Q
 BT
 1 0 0 1 100 422 Tm
-(newline_on) Tj
+(jump) Tj
 1 0 0 1 513.44 422 Tm
 (4) Tj
 ET
@@ -1962,7 +2022,7 @@ f
 Q
 BT
 1 0 0 1 100 410 Tm
-(newline_off) Tj
+(return) Tj
 1 0 0 1 513.44 410 Tm
 (4) Tj
 ET
@@ -1973,7 +2033,7 @@ f
 Q
 BT
 1 0 0 1 100 398 Tm
-(comment) Tj
+(newline_on) Tj
 1 0 0 1 513.44 398 Tm
 (4) Tj
 ET
@@ -1984,7 +2044,7 @@ f
 Q
 BT
 1 0 0 1 100 386 Tm
-(divider) Tj
+(newline_off) Tj
 1 0 0 1 513.44 386 Tm
 (4) Tj
 ET
@@ -1995,7 +2055,7 @@ f
 Q
 BT
 1 0 0 1 100 374 Tm
-(clear) Tj
+(comment) Tj
 1 0 0 1 513.44 374 Tm
 (4) Tj
 ET
@@ -2006,7 +2066,7 @@ f
 Q
 BT
 1 0 0 1 100 362 Tm
-(prepare) Tj
+(divider) Tj
 1 0 0 1 513.44 362 Tm
 (4) Tj
 ET
@@ -2017,7 +2077,7 @@ f
 Q
 BT
 1 0 0 1 100 350 Tm
-(print) Tj
+(clear) Tj
 1 0 0 1 513.44 350 Tm
 (4) Tj
 ET
@@ -2028,7 +2088,7 @@ f
 Q
 BT
 1 0 0 1 100 338 Tm
-(save) Tj
+(prepare) Tj
 1 0 0 1 513.44 338 Tm
 (4) Tj
 ET
@@ -2039,7 +2099,7 @@ f
 Q
 BT
 1 0 0 1 100 326 Tm
-(display) Tj
+(print) Tj
 1 0 0 1 513.44 326 Tm
 (4) Tj
 ET
@@ -2050,7 +2110,7 @@ f
 Q
 BT
 1 0 0 1 100 314 Tm
-(syntax_check) Tj
+(save) Tj
 1 0 0 1 513.44 314 Tm
 (4) Tj
 ET
@@ -2061,7 +2121,7 @@ f
 Q
 BT
 1 0 0 1 100 302 Tm
-(exec) Tj
+(display) Tj
 1 0 0 1 513.44 302 Tm
 (4) Tj
 ET
@@ -2072,7 +2132,7 @@ f
 Q
 BT
 1 0 0 1 100 290 Tm
-(eval) Tj
+(syntax_check) Tj
 1 0 0 1 513.44 290 Tm
 (4) Tj
 ET
@@ -2082,8 +2142,8 @@ q
 f
 Q
 BT
-1 0 0 1 76 278 Tm
-(PREREQUISITES) Tj
+1 0 0 1 100 278 Tm
+(exec) Tj
 1 0 0 1 513.44 278 Tm
 (5) Tj
 ET
@@ -2093,8 +2153,8 @@ q
 f
 Q
 BT
-1 0 0 1 76 266 Tm
-(SEE ALSO) Tj
+1 0 0 1 100 266 Tm
+(run) Tj
 1 0 0 1 513.44 266 Tm
 (5) Tj
 ET
@@ -2104,8 +2164,8 @@ q
 f
 Q
 BT
-1 0 0 1 76 254 Tm
-(AUTHOR) Tj
+1 0 0 1 100 254 Tm
+(eval) Tj
 1 0 0 1 513.44 254 Tm
 (5) Tj
 ET
@@ -2116,12 +2176,45 @@ f
 Q
 BT
 1 0 0 1 76 242 Tm
-(COPYRIGHT AND LICENSE) Tj
+(PREREQUISITES) Tj
 1 0 0 1 513.44 242 Tm
+(5) Tj
+ET
+q
+1 g
+52 227 491 12 re
+f
+Q
+BT
+1 0 0 1 76 230 Tm
+(SEE ALSO) Tj
+1 0 0 1 513.44 230 Tm
+(5) Tj
+ET
+q
+0.95 g
+52 215 491 12 re
+f
+Q
+BT
+1 0 0 1 76 218 Tm
+(AUTHOR) Tj
+1 0 0 1 513.44 218 Tm
+(5) Tj
+ET
+q
+1 g
+52 203 491 12 re
+f
+Q
+BT
+1 0 0 1 76 206 Tm
+(COPYRIGHT AND LICENSE) Tj
+1 0 0 1 513.44 206 Tm
 (5) Tj
 /F21 10 Tf
 1 0 0 1 52 37 Tm
-(02 May 2006 14:38) Tj
+(18 January 2007 10:20) Tj
 1 0 0 1 540.22 37 Tm
 (i) Tj
 ET
@@ -2131,7 +2224,7 @@ S
 endstream
 endobj
 43 0 obj
-4039
+4333
 endobj
 44 0 obj
 <<
@@ -2171,8 +2264,8 @@ BT
 /F21 10 Tf
 1 0 0 1 52 37 Tm
 (ii) Tj
-1 0 0 1 456.28 37 Tm
-(02 May 2006 14:38) Tj
+1 0 0 1 437.38 37 Tm
+(18 January 2007 10:20) Tj
 ET
 52 50 m
 543 50 l
@@ -2180,7 +2273,7 @@ S
 endstream
 endobj
 47 0 obj
-256
+260
 endobj
 48 0 obj
 <<
@@ -2228,10 +2321,11 @@ BT
 1 0 0 1 210 706 Tm
 0 -30 TD
 (Programmer's Reference) Tj
-T* (by ) Tj
+/F22 12 Tf
+T* (version 0.20) Tj
 0 0 0.8 rg
 /F22 12 Tf
-(M Gaffiero) Tj
+() Tj
 /F21 9 Tf
 T* (gaffie@users.sourceforge.net) Tj
 /F20 20 Tf
@@ -2239,12 +2333,12 @@ T* (gaffie@users.sourceforge.net) Tj
 1 0 0 1 217.48 371 Tm
 (Class::CodeStyler) Tj
 /F21 9 Tf
-T* (0.04) Tj
+T* () Tj
 ET
 endstream
 endobj
 52 0 obj
-340
+346
 endobj
 53 0 obj
 <<
@@ -2276,7 +2370,7 @@ BT
 (Class::CodeStyler) Tj
 /F21 10 Tf
 1 0 0 1 52 37 Tm
-(02 May 2006 14:38) Tj
+(18 January 2007 10:20) Tj
 1 0 0 1 543 37 Tm
 () Tj
 ET
@@ -2286,7 +2380,7 @@ S
 endstream
 endobj
 55 0 obj
-256
+260
 endobj
 56 0 obj
 <<
@@ -2311,8 +2405,8 @@ endobj
 /Parent 58 0 R
 /Dest [45 0 R /Fit]
 /First 60 0 R
-/Last 98 0 R
-/Count 39 
+/Last 101 0 R
+/Count 42 
 /Title (Table of Contents)
 >>
 endobj
@@ -2347,10 +2441,10 @@ endobj
 /Parent 59 0 R
 /Dest [25 0 R /FitH 303.000000000001]
 /Previous 62 0 R
-/Next 95 0 R
+/Next 98 0 R
 /First 64 0 R
-/Last 94 0 R
-/Count 31 
+/Last 97 0 R
+/Count 34 
 /Title (FUNCTION REFERENCE)
 >>
 endobj
@@ -2504,16 +2598,16 @@ endobj
 /Dest [29 0 R /FitH 190.8]
 /Previous 79 0 R
 /Next 81 0 R
-/Title (bookmark)
+/Title (anchor_set)
 >>
 endobj
 81 0 obj
 <<
 /Parent 63 0 R
-/Dest [29 0 R /FitH 136.8]
+/Dest [29 0 R /FitH 160.8]
 /Previous 80 0 R
 /Next 82 0 R
-/Title (jump)
+/Title (anchor_return)
 >>
 endobj
 82 0 obj
@@ -2522,7 +2616,7 @@ endobj
 /Dest [33 0 R /FitH 792]
 /Previous 81 0 R
 /Next 83 0 R
-/Title (return)
+/Title (bookmark)
 >>
 endobj
 83 0 obj
@@ -2531,7 +2625,7 @@ endobj
 /Dest [33 0 R /FitH 738]
 /Previous 82 0 R
 /Next 84 0 R
-/Title (newline_on)
+/Title (jump)
 >>
 endobj
 84 0 obj
@@ -2540,7 +2634,7 @@ endobj
 /Dest [33 0 R /FitH 684]
 /Previous 83 0 R
 /Next 85 0 R
-/Title (newline_off)
+/Title (return)
 >>
 endobj
 85 0 obj
@@ -2549,7 +2643,7 @@ endobj
 /Dest [33 0 R /FitH 630]
 /Previous 84 0 R
 /Next 86 0 R
-/Title (comment)
+/Title (newline_on)
 >>
 endobj
 86 0 obj
@@ -2558,7 +2652,7 @@ endobj
 /Dest [33 0 R /FitH 576]
 /Previous 85 0 R
 /Next 87 0 R
-/Title (divider)
+/Title (newline_off)
 >>
 endobj
 87 0 obj
@@ -2567,25 +2661,25 @@ endobj
 /Dest [33 0 R /FitH 522]
 /Previous 86 0 R
 /Next 88 0 R
-/Title (clear)
+/Title (comment)
 >>
 endobj
 88 0 obj
 <<
 /Parent 63 0 R
-/Dest [33 0 R /FitH 456]
+/Dest [33 0 R /FitH 468]
 /Previous 87 0 R
 /Next 89 0 R
-/Title (prepare)
+/Title (divider)
 >>
 endobj
 89 0 obj
 <<
 /Parent 63 0 R
-/Dest [33 0 R /FitH 402]
+/Dest [33 0 R /FitH 414]
 /Previous 88 0 R
 /Next 90 0 R
-/Title (print)
+/Title (clear)
 >>
 endobj
 90 0 obj
@@ -2594,7 +2688,7 @@ endobj
 /Dest [33 0 R /FitH 348]
 /Previous 89 0 R
 /Next 91 0 R
-/Title (save)
+/Title (prepare)
 >>
 endobj
 91 0 obj
@@ -2603,7 +2697,7 @@ endobj
 /Dest [33 0 R /FitH 294]
 /Previous 90 0 R
 /Next 92 0 R
-/Title (display)
+/Title (print)
 >>
 endobj
 92 0 obj
@@ -2612,7 +2706,7 @@ endobj
 /Dest [33 0 R /FitH 240]
 /Previous 91 0 R
 /Next 93 0 R
-/Title (syntax_check)
+/Title (save)
 >>
 endobj
 93 0 obj
@@ -2621,58 +2715,85 @@ endobj
 /Dest [33 0 R /FitH 186]
 /Previous 92 0 R
 /Next 94 0 R
-/Title (exec)
+/Title (display)
 >>
 endobj
 94 0 obj
 <<
 /Parent 63 0 R
-/Dest [33 0 R /FitH 120]
+/Dest [33 0 R /FitH 132]
 /Previous 93 0 R
-/Title (eval)
+/Next 95 0 R
+/Title (syntax_check)
 >>
 endobj
 95 0 obj
 <<
-/Parent 59 0 R
-/Dest [37 0 R /FitH 794.4]
-/Previous 63 0 R
+/Parent 63 0 R
+/Dest [37 0 R /FitH 792]
+/Previous 94 0 R
 /Next 96 0 R
-/Title (PREREQUISITES)
+/Title (exec)
 >>
 endobj
 96 0 obj
 <<
-/Parent 59 0 R
-/Dest [37 0 R /FitH 738]
+/Parent 63 0 R
+/Dest [37 0 R /FitH 726]
 /Previous 95 0 R
 /Next 97 0 R
-/Title (SEE ALSO)
+/Title (run)
 >>
 endobj
 97 0 obj
 <<
-/Parent 59 0 R
-/Dest [37 0 R /FitH 702]
+/Parent 63 0 R
+/Dest [37 0 R /FitH 672]
 /Previous 96 0 R
-/Next 98 0 R
-/Title (AUTHOR)
+/Title (eval)
 >>
 endobj
 98 0 obj
 <<
 /Parent 59 0 R
-/Dest [37 0 R /FitH 657.6]
-/Previous 97 0 R
+/Dest [37 0 R /FitH 620.4]
+/Previous 63 0 R
+/Next 99 0 R
+/Title (PREREQUISITES)
+>>
+endobj
+99 0 obj
+<<
+/Parent 59 0 R
+/Dest [37 0 R /FitH 564]
+/Previous 98 0 R
+/Next 100 0 R
+/Title (SEE ALSO)
+>>
+endobj
+100 0 obj
+<<
+/Parent 59 0 R
+/Dest [37 0 R /FitH 528]
+/Previous 99 0 R
+/Next 101 0 R
+/Title (AUTHOR)
+>>
+endobj
+101 0 obj
+<<
+/Parent 59 0 R
+/Dest [37 0 R /FitH 483.6]
+/Previous 100 0 R
 /Title (COPYRIGHT AND LICENSE)
 >>
 endobj
 58 0 obj
 <<
 /Type /Outlines
-/Count 40
+/Count 43
 /First 59 0 R
-/Last 98 0 R
+/Last 101 0 R
 >>
 endobj
 3 0 obj
@@ -2692,12 +2813,12 @@ endobj
 >>
 endobj
 xref
-0 99
+0 102
 0000000000 65535 f 
 0000000015 00000 n 
 0000000171 00000 n 
-0000038237 00000 n 
-0000038326 00000 n 
+0000039692 00000 n 
+0000039781 00000 n 
 0000000276 00000 n 
 0000002376 00000 n 
 0000002475 00000 n 
@@ -2712,92 +2833,95 @@ xref
 0000003387 00000 n 
 0000003493 00000 n 
 0000003607 00000 n 
-0000009189 00000 n 
-0000009210 00000 n 
-0000009336 00000 n 
-0000009419 00000 n 
-0000015716 00000 n 
-0000015737 00000 n 
-0000015887 00000 n 
-0000015970 00000 n 
-0000020300 00000 n 
-0000020321 00000 n 
-0000020471 00000 n 
-0000020554 00000 n 
-0000024624 00000 n 
-0000024645 00000 n 
-0000024783 00000 n 
-0000024866 00000 n 
-0000026909 00000 n 
-0000026930 00000 n 
-0000027056 00000 n 
-0000027139 00000 n 
-0000027453 00000 n 
-0000027473 00000 n 
-0000027575 00000 n 
-0000027658 00000 n 
-0000031751 00000 n 
-0000031772 00000 n 
-0000031886 00000 n 
-0000031969 00000 n 
-0000032279 00000 n 
-0000032299 00000 n 
-0000032401 00000 n 
-0000032484 00000 n 
-0000032567 00000 n 
-0000032961 00000 n 
-0000032981 00000 n 
-0000033107 00000 n 
-0000033417 00000 n 
-0000033437 00000 n 
-0000033539 00000 n 
-0000038162 00000 n 
-0000033622 00000 n 
-0000033744 00000 n 
-0000033835 00000 n 
-0000033945 00000 n 
-0000034071 00000 n 
-0000034242 00000 n 
-0000034388 00000 n 
-0000034498 00000 n 
-0000034630 00000 n 
-0000034753 00000 n 
-0000034876 00000 n 
-0000034994 00000 n 
-0000035110 00000 n 
-0000035206 00000 n 
-0000035314 00000 n 
-0000035428 00000 n 
-0000035543 00000 n 
-0000035651 00000 n 
-0000035759 00000 n 
-0000035873 00000 n 
-0000035986 00000 n 
-0000036093 00000 n 
-0000036205 00000 n 
-0000036313 00000 n 
-0000036421 00000 n 
-0000036533 00000 n 
-0000036646 00000 n 
-0000036755 00000 n 
-0000036864 00000 n 
-0000036971 00000 n 
-0000037080 00000 n 
-0000037187 00000 n 
-0000037293 00000 n 
-0000037402 00000 n 
-0000037516 00000 n 
-0000037622 00000 n 
-0000037715 00000 n 
-0000037832 00000 n 
-0000037942 00000 n 
-0000038050 00000 n 
+0000009193 00000 n 
+0000009214 00000 n 
+0000009340 00000 n 
+0000009423 00000 n 
+0000015724 00000 n 
+0000015745 00000 n 
+0000015895 00000 n 
+0000015978 00000 n 
+0000020468 00000 n 
+0000020489 00000 n 
+0000020639 00000 n 
+0000020722 00000 n 
+0000024705 00000 n 
+0000024726 00000 n 
+0000024864 00000 n 
+0000024947 00000 n 
+0000027713 00000 n 
+0000027734 00000 n 
+0000027860 00000 n 
+0000027943 00000 n 
+0000028261 00000 n 
+0000028281 00000 n 
+0000028383 00000 n 
+0000028466 00000 n 
+0000032853 00000 n 
+0000032874 00000 n 
+0000032988 00000 n 
+0000033071 00000 n 
+0000033385 00000 n 
+0000033405 00000 n 
+0000033507 00000 n 
+0000033590 00000 n 
+0000033673 00000 n 
+0000034073 00000 n 
+0000034093 00000 n 
+0000034219 00000 n 
+0000034533 00000 n 
+0000034553 00000 n 
+0000034655 00000 n 
+0000039616 00000 n 
+0000034738 00000 n 
+0000034861 00000 n 
+0000034952 00000 n 
+0000035062 00000 n 
+0000035188 00000 n 
+0000035359 00000 n 
+0000035505 00000 n 
+0000035615 00000 n 
+0000035747 00000 n 
+0000035870 00000 n 
+0000035993 00000 n 
+0000036111 00000 n 
+0000036227 00000 n 
+0000036323 00000 n 
+0000036431 00000 n 
+0000036545 00000 n 
+0000036660 00000 n 
+0000036768 00000 n 
+0000036876 00000 n 
+0000036990 00000 n 
+0000037103 00000 n 
+0000037210 00000 n 
+0000037324 00000 n 
+0000037441 00000 n 
+0000037551 00000 n 
+0000037657 00000 n 
+0000037765 00000 n 
+0000037877 00000 n 
+0000037990 00000 n 
+0000038099 00000 n 
+0000038208 00000 n 
+0000038315 00000 n 
+0000038424 00000 n 
+0000038531 00000 n 
+0000038637 00000 n 
+0000038746 00000 n 
+0000038860 00000 n 
+0000038966 00000 n 
+0000039071 00000 n 
+0000039164 00000 n 
+0000039281 00000 n 
+0000039392 00000 n 
+0000039502 00000 n 
 trailer
 <<
-/Size 99
+/Size 102
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-38474
+39929
 %%EOF

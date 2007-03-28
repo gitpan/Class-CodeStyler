@@ -232,6 +232,14 @@ Turn on indenting.
 Add the F<CodeStyle> object or objects that are specified in the arguments to this F<CodeStyle> object.
 
 
+=head2 F<anchor_set>
+
+=head2 F<anchor_return>
+
+
+Set an I<anchor> with the F<anchor_set()> function, and return to the last set I<anchor> with the F<anchor_return()> function.
+
+
 =head2 F<bookmark>
 
 
@@ -316,6 +324,11 @@ Check the syntax of the generated program.
 Execute the generated program. The generated program will be executed in place of this (caller) program.
 
 
+=head2 F<run>
+
+Execute the generated program and wait for return.
+
+
 =head2 F<eval>
 
 
@@ -340,11 +353,11 @@ F<Class::STL::Containers> version 0.18 or above is required.
 
 =head1 AUTHOR
 
-m gaffiero, E<lt>gaffie@users.sourceforge.net<gt>
+m gaffiero, E<lt>gaffie@users.sourceforge.netE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2006 by Mario Gaffiero
+Copyright E<copy>1999-2007, Mario Gaffiero. All Rights Reserved.
 
 
 This file is part of Class::CodeStyler(TM).
@@ -352,8 +365,7 @@ This file is part of Class::CodeStyler(TM).
 
 Class::CodeStyler is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+the Free Software Foundation; version 2 of the License.
 
 
 Class::CodeStyler is distributed in the hope that it will be useful,
