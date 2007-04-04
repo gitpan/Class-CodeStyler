@@ -1,5 +1,8 @@
 Revision history for Perl extension Class::CodeStyler.
 
+0.26 Thu March 29 18:30:00 2007
+	- fix prerequisite 'use' error for Class::STL;:Containers on some platforms.
+
 0.25 Wed February 21 19:12:21 2007
 	- in append_text() default arg to '' if undefined.
 

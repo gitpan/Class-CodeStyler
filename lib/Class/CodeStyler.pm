@@ -4,7 +4,7 @@
 #  Created	: 24 April 2006
 #  Author	: Mario Gaffiero (gaffie)
 #
-# Copyright 2006 Mario Gaffiero.
+# Copyright 2006-2007 Mario Gaffiero.
 # 
 # This file is part of Class::CodeStyler(TM).
 # 
@@ -29,9 +29,10 @@ require 5.005_62;
 use strict;
 use warnings;
 use vars qw($VERSION $BUILD);
-$VERSION = 0.25;
-$BUILD = 'Wednesday February 21 21:21:18 BST 2006';
+$VERSION = 0.26;
+$BUILD = 'Thu Mar 29 18:32:42 GMTDT 2007';
 use Carp qw(confess);
+use stl;
 # ----------------------------------------------------------------------------------------------------
 {
 	package Class::CodeStyler::Element::Abstract;
@@ -46,7 +47,6 @@ use Carp qw(confess);
 # ----------------------------------------------------------------------------------------------------
 {
 	package Class::CodeStyler::CodeText;
-	use stl;
 	use base qw(Class::STL::Containers::Stack);
 	use Class::STL::ClassMembers
 		Class::STL::ClassMembers::DataMember->new(name => 'newline_is_on',	default => 1),
@@ -62,7 +62,7 @@ use Carp qw(confess);
 	{
 		my $self = shift;
 		return if ($self->raw_is_on());
-		$self->push($self->factory("\n"));
+		$self->push($self->factory(data => "\n"));
 		$self->_indent_next(1);
 		print STDERR "NEWLINE:\n" if ($self->debug());
 	}
@@ -70,7 +70,7 @@ use Carp qw(confess);
 	{
 		my $self = shift;
 		my $code = shift || '';
-		$self->push($self->factory($self->current_indent() . $code));
+		$self->push($self->factory(data => $self->current_indent() . $code));
 		print STDERR "CODE   :@{[ $self->current_indent() ]}${code}\n" if ($self->debug());
 		$self->_indent_next(0);
 	}
@@ -87,7 +87,6 @@ use Carp qw(confess);
 # ----------------------------------------------------------------------------------------------------
 {
 	package Class::CodeStyler::FindName;
-	use stl;
 	use base qw(Class::STL::Utilities::FunctionObject::UnaryFunction);
 	use Class::STL::ClassMembers qw( name );
 	use Class::STL::ClassMembers::Constructor;
@@ -176,6 +175,7 @@ use Carp qw(confess);
 			elsif (ref($code) && $code->isa('Class::CodeStyler::Element::Abstract'))
 			{
 				$code->owner($self);
+				$self->segments()->insert($self->_insert_point(), 1, $code);
 			}
 			elsif (!ref($code))
 			{
@@ -186,7 +186,6 @@ use Carp qw(confess);
 			{
 				next;
 			}
-			$self->segments()->insert($self->_insert_point(), 1, $code);
 		}
 	}
 	sub code
@@ -322,7 +321,8 @@ use Carp qw(confess);
 	sub print
 	{
 		my $self = shift;
-		return $self->code_text()->join('');
+		return $self->code_text()->join(''); 
+		# Class::STL::Containers function -- joins print() return for all elements;
 	}
 	sub raw
 	{
