@@ -1,5 +1,8 @@
 Revision history for Perl extension Class::CodeStyler.
 
+0.27 Tue May 1 18:30:00 2007
+	- Changed exists() -- possible mem leak in stl::algorithm functions.
+
 0.26 Thu March 29 18:30:00 2007
 	- fix prerequisite 'use' error for Class::STL;:Containers on some platforms.
 

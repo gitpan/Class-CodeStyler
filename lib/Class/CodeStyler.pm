@@ -29,8 +29,8 @@ require 5.005_62;
 use strict;
 use warnings;
 use vars qw($VERSION $BUILD);
-$VERSION = 0.26;
-$BUILD = 'Thu Mar 29 18:32:42 GMTDT 2007';
+$VERSION = 0.27;
+$BUILD = 'Tue May 01 18:32:42 GMTDT 2007';
 use Carp qw(confess);
 use stl;
 # ----------------------------------------------------------------------------------------------------
@@ -128,12 +128,20 @@ use stl;
 	{
 		my $self = shift;
 		my $name = shift;
-		my $s;
-		return $s->p_element()
-			if ($s = find_if($self->segments()->begin(), $self->segments()->end(), 
-				Class::CodeStyler::FindName->new(name => $name)));
+		my @l = grep($_->program_name() eq $name, $self->to_array());
+		return $l[0] if (@l);
 		return 0;
 	}
+#?	sub exists #TODO: memleak? slow?
+#?	{
+#?		my $self = shift;
+#?		my $name = shift;
+#?		my $s;
+#?		return $s->p_element()
+#?			if ($s = find_if($self->segments()->begin(), $self->segments()->end(), 
+#?				Class::CodeStyler::FindName->new(name => $name)));
+#?		return 0;
+#?	}
 	sub new_extra
 	{
 		my $self = shift;
@@ -315,7 +323,8 @@ use stl;
 		# This works because all 'segments' elements are (ultimately) derived 
 		# from Class::CodeStyler::Element::Abstract. Recursion via this prepare() will
 		# occure if the element is a Class::CodeStyler::Program.
-		for_each($self->segments()->begin(), $self->segments()->end(), mem_fun('prepare'));
+#?		for_each($self->segments()->begin(), $self->segments()->end(), mem_fun('prepare')); #TODO: memleak? slow?
+		map($_->prepare(), $self->segments()->to_array());
 		return $self;
 	}
 	sub print
